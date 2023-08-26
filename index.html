@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Tip Calculate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="tipContainer">
+            <div class="tipLogo">
+                <h2> HOTEL TIPS CALCULATOR </h2>
+            </div>
+            <div class="tipBody">
+                <div class="billing_area">
+                    <label for="totalBill">Total Bill :</label>
+                    <input type="text" class="totalBill" placeholder="Enter your bill amount"><br>
+    
+                    <label for="totalTip">Tip % :</label>
+                    <input type="text" class="totalTip" placeholder="Expected Tips">
+                </div>
+                <div class="people_area">
+                    <p> People </p>
+                </div>
+                <div class="inner_people">
+                    <ul>
+                        <li class="minusPeople" > - </li>
+                        <li class="sumPeople" > 1 </li>
+                        <li class="plusPeople" > + </li>
+                    </ul>
+                    <button class="calculator" > Calculate </button>
+                </div>
+            </div>
+            <div class="summary_area">
+                <p> SUMMARY </p>
+                <div>
+                    <h3> TOTAL BILL </h3>
+                    <h4> $ <span class="perPersonBill" > 0 </span> </h4>
+                </div>
+                <div>
+                    <h3> TIP AMOUNT </h3>
+                    <h4> $ <span class="tipAmount" > 0 </span> </h4>
+                </div>
+                <div>
+                    <h3> TEX <span> 5% </span> </h3>
+                    <h4> $ <span class="texAmount" > 0 </span> </h4>
+                </div>
+                <hr>
+                <div>
+                    <h3> TOTAL PER PERSON </h3>
+                    <h4> $ <span class="totalPerPerson" > 0 </span> </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
